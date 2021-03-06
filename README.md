@@ -17,8 +17,28 @@ $ ./Run
 ```
 $ ./Run -i 1
 ```
-# Scores of various smartphones
+Shellからログアウトしてもバックグランドで実行できるようにしてコーヒーでも飲みましょう！
 
+```
+$ nohup ./Run &
+```
+結果は以下にでます。
+
+```
+$ tree results/
+results/
+├── localhost-2021-03-06-01
+├── localhost-2021-03-06-01.html
+├── localhost-2021-03-06-01.log
+├── localhost-2021-03-06-02
+├── localhost-2021-03-06-02.html
+└── localhost-2021-03-06-02.log
+```
+ベンチマークの意味は以下など参照。
+http://naoberry.com/tech/unixbench/
+https://vpshikaku.com/unixbench%E3%81%A8%E3%81%AF/
+# Scores of various smartphones
+過去に計測したスマホのスコアを載せておきます。
 ```
 Redmi Note 9S Android10
 CPU : Qualcomm Snapdragon 720G
@@ -49,6 +69,7 @@ Single CPU ----- Score 583.3
 Memo : This is the score measured while cooling in the refrigerator.
 https://junkhack.gpl.jp/2020/10/09/smartphone-in-the-fridge/
 
+ここから以下はオリジナルのドキュメントです。
 # byte-unixbench
 
 **UnixBench** is the original BYTE UNIX benchmark suite, updated and revised by many people over the years.

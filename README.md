@@ -2,10 +2,20 @@
 UnixBench をtermuxでビルドできるよう、-march=native コンパイルオプションを削除したものです。
 -march=native の「ネイティブ」とは、生成されたコードがそのタイプのCPUでのみ実行されることを意味します。[WiKi参照](https://wiki.gentoo.org/wiki/GCC_optimization#-march)
 # How to Use
+termux でビルドするのに必要なツールをインストールします。
+```
+$ pkg install vim wget clang make perl git pkg-config -y
+```
+リポジトリからcloneして　Run すると make されて UnixBench が動きます。
 ```
 $ git clone https://github.com/take-i/termux-unixbench.git
 $ cd termux-unixbench/UnixBench/
 $ ./Run
+```
+オプションなしだと、シングルCPUと持っているCPU Core分だけ計測しますので、終了するまで結構時間はかかります。急ぎであれば、iオプションで1を指定すれば短縮できます。
+
+```
+$ ./Run -i 1
 ```
 # Scores of various smartphones
 

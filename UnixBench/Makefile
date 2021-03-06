@@ -95,7 +95,7 @@ else
     #   - Supported    : x86, x86_64, ARM, AARCH64, etc..
     #   - Not Supported: RISC-V, IBM Power, etc...
     ifneq ($(ARCH),$(filter $(ARCH),ppc64 ppc64le))
-        OPTON += -march=native -mtune=native
+        OPTON += -mtune=native
     else
         OPTON += -mcpu=native -mtune=native
     endif

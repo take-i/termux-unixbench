@@ -8,27 +8,34 @@ $ cd termux-unixbench/UnixBench/
 $ ./Run
 ```
 # Scores of various smartphones
-> **Redmi Note 9S Android10**
-> CPU : Qualcomm Snapdragon 720G
-> Hardware : Qualcomm Technologies, Inc SM7125
-> Single CPU ----- Score  569.6
-> 8CPU ----------- Score 1177.5
+
+```
+Redmi Note 9S Android10
+CPU : Qualcomm Snapdragon 720G
+Hardware : Qualcomm Technologies, Inc SM7125
+Single CPU ----- Score  569.6
+8CPU ----------- Score 1177.5
+```
 
 -------
 
-> **UmidigiF2 Android10**
-> CPU : MediaTek Helio P70
-> Hardware : MT6771V/CT
-> Single CPU ----- Score 406.2
-> 8CPU ----------- Score 1312.3
+```
+UmidigiF2 Android10
+CPU : MediaTek Helio P70
+Hardware : MT6771V/CT
+Single CPU ----- Score 406.2
+8CPU ----------- Score 1312.3
 
+```
 -------
 
-> **Pixel3 Android11**
-> CPU：Snapdragon 845
-> Hardware : Qualcomm Technologies, Inc SDM845
-> Single CPU ----- Score 583.3
-> 8CPU ----------- Score 1833.7
+```
+Pixel3 Android11
+CPU：Snapdragon 845
+Hardware : Qualcomm Technologies, Inc SDM845
+Single CPU ----- Score 583.3
+8CPU ----------- Score 1833.7
+```
 Memo : This is the score measured while cooling in the refrigerator.
 https://junkhack.gpl.jp/2020/10/09/smartphone-in-the-fridge/
 
